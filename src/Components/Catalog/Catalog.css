@@ -1,0 +1,36 @@
+.catalog-list ul {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.catalog {
+    background-color: #8a2be2;
+    padding: 10px;
+}
+
+.catalog-list ul li {
+    transition: all 0.3s ease-in-out;
+}
+
+.catalog-list ul li:hover {
+    color: #8a2be2;
+    background-color: #fff;
+    cursor: pointer;
+
+
+}
+
+.catalog-list ul li a {
+  padding: 15px;
+
+}
+
+
+
+
+
+.catalog-list a {
+    color: #fff;
+    
+}
