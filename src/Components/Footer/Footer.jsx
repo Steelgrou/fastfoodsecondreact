@@ -1,3 +1,10 @@
+import { Link } from 'react-router-dom'
+import './Footer.css'
+import instagram from '/instagram.svg'
+import telegram from '/telegram.svg'
+import youtube from '/youtube.svg'
+
+
 export default function Footer() {
     return (
         <>
@@ -5,10 +12,10 @@ export default function Footer() {
                 <div className="container">
                     <div className="footer-wrapper">
                         <div className="footer-info">
-                            <img src="" alt="" />
+                            <p>SFood</p>
                             <ul>
-                                <li><a href="">Главноя</a></li>
-                                <li><a href="">Филиалы</a></li>
+                                <li><Link to="/">Главная</Link></li>
+                                <li><Link to="/Branch">Филиалы</Link></li>
                                 <li><a href="">О Нас</a></li>
                                 <li><a href="">Контакты</a></li>
                             </ul>
@@ -16,9 +23,9 @@ export default function Footer() {
                         <div className="footer-social">
                             <h2>Присоединяйтесь к нам</h2>
                             <div className="social-logo">
-                                <img src="" alt="" />
-                                <img src="" alt="" />
-                                <img src="" alt="" />
+                                <a href=""><img className='telegram' src={telegram} alt="telegram" /></a>
+                                <a href=""><img className='instagram' src={instagram} alt="instagram" /></a>
+                                <a href=""><img className='youtube' src={youtube} alt="youtube" /></a>
                             </div>
                         </div>
                         <div className="footer-contact">

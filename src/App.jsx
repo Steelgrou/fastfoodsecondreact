@@ -1,8 +1,9 @@
 import './App.css'
-import Catalog from './Components/Catalog/Catalog'
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
-import Swiper from './Components/Header/Swiper/Swiper'
+import { Routes, Route } from 'react-router-dom'
+import Branch from './Pages/Homepage/Branch/Branch'
+import Homepage from './Pages/Homepage/Homepage'
+import About from './Pages/Homepage/About/About'
+import Contacts from './Pages/Contacts/Contacts'
 
 
 
@@ -11,10 +12,15 @@ export default function App() {
 
   return (
     <>
-      <Header />
-      <Swiper />
-      <Catalog/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/Branch" element={<Branch />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contacts" element={<Contacts />} />
+      </Routes>
+
+
+
 
     </>
   )

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +27,8 @@
 
 .header-logo img {
     width: 70px;
-    height: 70px;
+    height: 71px;
+    
 }
 
 .header-right img {
@@ -73,7 +76,7 @@
     font-size: 18px;
     transition: .3s;
     margin: 0 15px;
-    padding: 10px 25px;
+    padding: 10px 24px;
     border-radius: 5px;
     cursor: pointer;
     transition-duration: 1s;
