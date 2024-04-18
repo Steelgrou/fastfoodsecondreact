@@ -6,9 +6,8 @@ import About from './Pages/Homepage/About/About'
 import Contacts from './Pages/Contacts/Contacts'
 
 
-
 export default function App() {
-
+ 
 
   return (
     <>
@@ -18,12 +17,9 @@ export default function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Contacts" element={<Contacts />} />
       </Routes>
-
-
-
-
     </>
   )
+
 }
 
 
