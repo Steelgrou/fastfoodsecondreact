@@ -1,6 +1,19 @@
 import Seafood from "./Сatalog-card/Seafood/Seafood";
 
 import './Catalog.css'
+import { Link } from "react-router-dom";
+
+// const Desert = document.body.getElementById('Desert')
+// const catologCards = document.querySelector('.catolog-cards')
+// const Home = document.querySelector('#Home')
+
+// Home.addEventListener('click', () => {
+//     catologCards.style.display = "block"
+
+// })
+
+
+
 
 export default function Catalog() {
     return (
@@ -9,8 +22,8 @@ export default function Catalog() {
                 <div className="container">
                     <div className="catalog-list">
                         <ul>
-                            <li><a href="#">Lavash</a></li>
-                            <li><a href="#">Desert</a></li>
+                            <li id="Home"><Link to="/">Lavash</Link></li>
+                            <li id="Desert"><Link to="/Desert">Desert</Link></li>
                             <li><a href="#">Set</a></li>
                             <li><a href="#">Haggi</a></li>
                             <li><a href="#">Burger</a></li>

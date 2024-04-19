@@ -16,7 +16,7 @@ export default function Footer() {
                             <ul>
                                 <li><Link to="/">Главная</Link></li>
                                 <li><Link to="/Branch">Филиалы</Link></li>
-                                <li><a href="">О Нас</a></li>
+                                <li><a href="#!">О Нас</a></li>
                                 <li><a href="">Контакты</a></li>
                             </ul>
                         </div>

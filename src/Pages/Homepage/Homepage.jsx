@@ -1,7 +1,7 @@
 import Catalog from "../../Components/Catalog/Catalog";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
-import SwiperFood from "../../Components/Header/Swiper/SwiperFood";
+import SwiperFood from "../../Components/Swiper/SwiperFood";
  
 
 

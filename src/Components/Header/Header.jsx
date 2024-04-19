@@ -8,23 +8,27 @@ export default function Header() {
         <>
             <section className='header'>
                 <div className="container">
-                    <div className="header-left">
-                        <div className="header-logo">
-                            <img src={logo} alt="" />
+                    <div className="header-wrapper">
+                        <div className="header-left">
+                            <button className='header-burger__btn'>
+                                <span></span><span></span><span></span>
+                            </button>
+                            <div className="header-logo">
+                                <img src={logo} alt="" />
+                            </div>
+                            <nav>
+                                <ul>
+                                    <Link to='/' className='active'>Главная </Link>
+                                    <Link to='/Branch'>Филиалы</Link>
+                                    <Link to='/About'>О нас</Link>
+                                    <Link to='/Contacts'>Контакты</Link>
+                                </ul>
+                            </nav>
                         </div>
-                        <nav>
-                            <ul>
-                                <Link to='/'>Главная </Link>
-                                <Link to='/Branch'>Филиалы</Link>
-                                <Link to='/About'>О нас</Link>
-                                <Link to='/Contacts'>Контакты</Link>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div className="header-right">
-                        <button className='basket-btn'><img src={basket} alt="basket" /></button>
-                        <button className='login-btn'>Войти</button>
+                        <div className="header-right">
+                            <button className='basket-btn'><img src={basket} alt="basket" /></button>
+                            <button className='login-btn'>Войти</button>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -1,0 +1,9 @@
+:root {
+    --textColor: #000;
+    --purple: #8a2be2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
