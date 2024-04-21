@@ -23,7 +23,7 @@ export default function Footer() {
                         <div className="footer-social">
                             <h2>Присоединяйтесь к нам</h2>
                             <div className="social-logo">
-                                <a href=""><img className='telegram' src={telegram} alt="telegram" /></a>
+                                <a href="https://t.me/Steelgrou"><img className='telegram' src={telegram} alt="telegram" /></a>
                                 <a href=""><img className='instagram' src={instagram} alt="instagram" /></a>
                                 <a href=""><img className='youtube' src={youtube} alt="youtube" /></a>
                             </div>
